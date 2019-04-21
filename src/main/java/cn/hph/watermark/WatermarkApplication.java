@@ -33,7 +33,7 @@ public class WatermarkApplication {
                         .run(args);
 
         // 输出变量
-        System.out.println(context.getEnvironment().getProperty("spring.datasource.name"));
+        System.out.println(context.getEnvironment().getProperty("spring.datasource.password"));
 
     }
 

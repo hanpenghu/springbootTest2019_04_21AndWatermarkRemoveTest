@@ -1,6 +1,6 @@
 server:
    port:
-      8080
+      8081
 spring:
    profiles: mysql
    http:
@@ -12,10 +12,8 @@ spring:
      password:  root1
    thymeleaf:
      prefix: classpath:/templates/
-
-#²»Í¬µÄprofiles»·¾³ÓÃ  --- ¸ô¿ª,È»ºóÔÙÆô¶¯ÀàÖĞ¿´Æô¶¯ÄÄ¸ö
+  #ä¸åŒçš„profilesç¯å¢ƒç”¨  --- éš”å¼€,ç„¶åå†å¯åŠ¨ç±»ä¸­çœ‹å¯åŠ¨å“ªä¸ª,ä¸»æ„åªæœ‰ä¸­æ–‡æ³¨é‡Šå¿…é¡»æ˜¯utf-8çš„æ–‡æœ¬
 ---
-
 spring:
   profiles: oracle
   http:

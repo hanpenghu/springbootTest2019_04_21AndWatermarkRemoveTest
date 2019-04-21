@@ -24,7 +24,7 @@ public class Test01RestController {
         p.setName("Crazyit");
         p.setAge(33);
         // 输出变量 root1
-        System.out.println(context.getEnvironment().getProperty("spring.datasource.name"));
+        System.out.println(context.getEnvironment().getProperty("spring.datasource.password"));
         return p;
     }
 
