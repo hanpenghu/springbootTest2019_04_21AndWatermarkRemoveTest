@@ -1,0 +1,37 @@
+server:
+   port:
+      8080
+spring:
+   profiles: mysql
+   http:
+     encoding:
+       charset: UTF-8
+   datasource:
+     driver-class-name: com.mysql.cj.jdbc.Driver
+     name: root1
+     password:  root1
+   thymeleaf:
+     prefix: classpath:/templates/
+
+#不同的profiles环境用  --- 隔开,然后再启动类中看启动哪个
+---
+
+spring:
+  profiles: oracle
+  http:
+    encoding:
+      charset: UTF-8
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    name: root1
+    password:  root1
+  thymeleaf:
+    prefix: classpath:/templates/
+
+
+
+
+
+
+
+
